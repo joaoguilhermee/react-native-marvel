@@ -1,0 +1,10 @@
+[ ] icone slash
+[ ] icone
+[ ] arquivo de configuração
+[ ] servicos
+[ ] escrever read
+
+
+public d92d3fd55c235b7a6b585b79a29dbee5
+private c348ea7b25331401da0240cbe3b27c88f3a14949
+https://gateway.marvel.com/v1/public/characters?nameStartsWith=Spi&apikey=d92d3fd55c235b7a6b585b79a29dbee5

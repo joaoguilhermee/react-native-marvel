@@ -13,7 +13,11 @@ const Tabs = ({ tabs, active, onPress }) => {
   return (
     <Container>
       {tabs.map(tab => (
-        <Tab onPress={() => onPress(tab.id)} active={tab.id === active}>
+        <Tab
+          key={tab.id}
+          onPress={() => onPress(tab.id)}
+          active={tab.id === active}
+        >
           <TabText active={tab.id === active}>{tab.name}</TabText>
         </Tab>
       ))}

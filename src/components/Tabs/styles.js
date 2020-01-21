@@ -10,6 +10,7 @@ export const Tab = styled.TouchableOpacity`
   background: ${props => (props.active ? colors.red : colors.white)};
   padding: 10px 16px;
   border-radius: 14px;
+  margin-right: 4px;
 `;
 
 export const TabText = styled.Text`

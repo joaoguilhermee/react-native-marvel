@@ -1,9 +1,11 @@
 import styled from "styled-components/native";
-import { metrics } from "../../styles";
+import { metrics, colors } from "../../styles";
 
 export const Container = styled.SafeAreaView`
   flex: 1;
+  background: ${colors.white};
 `;
 export const Wrapper = styled.View`
-  padding: ${metrics.padding}px;
+  padding: 20px;
+  flex: 1;
 `;

@@ -1,3 +1,3 @@
 export default {
-  padding: 20
+  padding: 16
 };

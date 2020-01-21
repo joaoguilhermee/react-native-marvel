@@ -1,2 +1,2 @@
-import page from "./home";
+import page from "./Home";
 export default page;

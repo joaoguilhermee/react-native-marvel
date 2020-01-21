@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Animated, Dimensions } from "react-native";
 import { SvgXml } from "react-native-svg";
+import Share from "react-native-share";
 
 const { height, width } = Dimensions.get("window");
 import {
@@ -10,11 +11,11 @@ import {
   Photo,
   Content,
   Name,
-  Share,
+  ShareButton,
   Header,
   Text
 } from "./styles";
-
+import api from "../../services/api";
 import { share } from "../../assets/images/ico-share.svg";
 const Modal = ({ show, close, item }) => {
   const [state, setState] = useState({
@@ -46,15 +47,36 @@ const Modal = ({ show, close, item }) => {
       Animated.timing(state.container, { toValue: height, duration: 100 })
     ]).start();
   };
+  function handleShare(item) {
+    const shareOptions = {
+      title: "Share via",
+      message: "some message",
+      url: "some share url"
+    };
+    Share.open(shareOptions);
+  }
 
   useEffect(() => {
-    console.log(show);
     if (show) {
       openModal();
     } else {
       closeModal();
     }
   }, [show]);
+
+  async function getData(id) {
+    const response = await api.get(`characters/${id}/comics?limit=20`);
+    const { status, data } = response;
+
+    if (status === 200 && data) {
+      const { results } = data.data;
+    }
+  }
+  useEffect(() => {
+    if (item && item.id) {
+      getData(item.id);
+    }
+  }, [item]);
 
   return (
     <Container
@@ -86,11 +108,12 @@ const Modal = ({ show, close, item }) => {
             <Content>
               <Header>
                 <Name>{item.name}</Name>
-                <Share>
+                <ShareButton onPress={item => handleShare(item)}>
                   <SvgXml xml={share} />
-                </Share>
+                </ShareButton>
               </Header>
-              <Text>{JSON.stringify(item)}</Text>
+
+              <Text>{item.description}</Text>
             </Content>
           </>
         )}

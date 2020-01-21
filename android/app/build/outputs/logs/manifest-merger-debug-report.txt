@@ -6,6 +6,7 @@ INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/an
 INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from [:@react-native-community_masked-view] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-svg] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/d4d7d71f5bcf8ab2d261ebac08563caf/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/700e12e8bd10805b9dd30826ae5bf845/AndroidManifest.xml:2:1-11:12
@@ -72,6 +73,8 @@ application
 ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/d4d7d71f5bcf8ab2d261ebac08563caf/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/d4d7d71f5bcf8ab2d261ebac08563caf/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/84957360ee5b3d5aa70ed4c4f7e67db9/AndroidManifest.xml:11:5-20
@@ -136,6 +139,8 @@ INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/an
 INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml
 MERGED from [:@react-native-community_masked-view] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_masked-view] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/d4d7d71f5bcf8ab2d261ebac08563caf/AndroidManifest.xml:7:5-9:41
@@ -224,3 +229,23 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+provider#cl.json.RNShareFileProvider
+ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:64
+	android:resource
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-61
+	android:name
+		ADDED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67

@@ -304,6 +304,10 @@
         "source": "/Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/9db692d0225cba27dc9003c30813d304/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/build/intermediates/res/merged/debug/xml_share_download_paths.xml.flat",
+        "source": "/Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/packaged_res/debug/xml/share_download_paths.xml"
+    },
+    {
         "merged": "/Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/9db692d0225cba27dc9003c30813d304/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },

@@ -22,11 +22,18 @@ export const Content = styled.ScrollView`
   padding: 24px;
 `;
 
-export const Share = styled.TouchableOpacity``;
+export const ShareButton = styled.TouchableOpacity.attrs({
+  hitSlop: { top: 10, bottom: 10, left: 10, right: 10 }
+})`
+  flex: 0.1;
+  text-align: right;
+  align-items: center;
+`;
 export const Header = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom:22px;
 `;
 export const Name = styled.Text`
   font-family: System;
@@ -35,6 +42,8 @@ export const Name = styled.Text`
   font-size: 32px;
   line-height: 38px;
   letter-spacing: 0.666667px;
+  flex: 0.9;
+  
 `;
 export const Text = styled.Text``;
 export const Photo = styled.Image`

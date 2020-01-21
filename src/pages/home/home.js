@@ -26,10 +26,11 @@ const Home = () => {
   const perPage = 20;
   async function getData() {
     setLoading(true);
+
     const response = await api.get(
       `characters?limit=${perPage}&offset=${
         page > 1 ? perPage * (page - 1) : 0
-      }${search && `&nameStartsWith=${search}`}`
+      }${search && `&nameStartsWith=%${search}`}`
     );
     const { status, data } = response;
 
@@ -40,7 +41,6 @@ const Home = () => {
     setLoading(false);
   }
   function loadMore() {
-    console.tron.log("LOADMOIRE", characters);
     setPage(page + 1);
   }
   useEffect(() => {

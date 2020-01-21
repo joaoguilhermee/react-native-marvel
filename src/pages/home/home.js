@@ -12,11 +12,14 @@ import { Container, Wrapper } from "./styles";
 import api from "../../services/api";
 import Header from "../../components/Header";
 import Tabs from "../../components/Tabs";
+import Modal from "../../components/Modal";
 import CharactersList from "../../components/CharactersList";
 
 const Home = () => {
   const [tab, setTab] = useState("popular");
   const [characters, setCharacters] = useState([]);
+  const [character, setCharacter] = useState(null);
+  const [modal, setModal] = useState(false);
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
@@ -43,6 +46,12 @@ const Home = () => {
   useEffect(() => {
     getData();
   }, [page]);
+  function onPress(item) {
+    if (item) {
+      setModal(true);
+      setCharacter(item);
+    }
+  }
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -61,10 +70,14 @@ const Home = () => {
           <CharactersList
             loading={loading}
             loadMore={() => loadMore()}
+            onPress={item => onPress(item)}
+            onClose={() => setModal(false)}
             characters={characters}
           />
         </Wrapper>
       </Container>
+
+      <Modal show={modal} item={character} close={() => setModal(false)} />
     </>
   );
 };

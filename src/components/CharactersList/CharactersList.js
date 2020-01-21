@@ -3,14 +3,16 @@ import { ActivityIndicator } from "react-native";
 import { Container, List, Loader } from "./styles";
 import Character from "../Character";
 
-const CharactersList = ({ loading, characters, loadMore }) => {
+const CharactersList = ({ loading, characters, loadMore, onPress }) => {
   return (
     <Container>
       {characters && characters.length > 0 && (
         <List
           onEndReached={() => loadMore()}
           onEndReachedThreshold={0.25}
-          renderItem={({ item }) => <Character item={item} />}
+          renderItem={({ item }) => (
+            <Character onPress={() => onPress(item)} item={item} />
+          )}
           keyExtractor={item => item.id}
           data={characters}
         />

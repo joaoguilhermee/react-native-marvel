@@ -12,7 +12,7 @@ import {
 } from "./styles";
 
 import { link } from "../../assets/images/ico-link.svg";
-const Character = ({ item }) => {
+const Character = ({ item, onPress }) => {
   return (
     <Container>
       {item.thumbnail && item.thumbnail.path && (
@@ -33,7 +33,7 @@ const Character = ({ item }) => {
         {item.description !== "" && (
           <Description numberOfLines={4}>{item.description}</Description>
         )}
-        <MoreInfo>
+        <MoreInfo onPress={item => onPress(item)}>
           <MoreInfoText>More info</MoreInfoText>
           <SvgXml xml={link} />
         </MoreInfo>

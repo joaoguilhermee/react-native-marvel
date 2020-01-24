@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jan 24 15:46:06 BRST 2020
+#Fri Jan 24 16:04:18 BRST 2020
 56.path=lib/arm64-v8a/libjsc.so
 5.base=/Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

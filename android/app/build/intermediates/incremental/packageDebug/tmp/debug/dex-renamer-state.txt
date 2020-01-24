@@ -1,4 +1,4 @@
-#Fri Jan 24 09:06:01 BRST 2020
+#Fri Jan 24 11:32:12 BRST 2020
 base.0=/Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

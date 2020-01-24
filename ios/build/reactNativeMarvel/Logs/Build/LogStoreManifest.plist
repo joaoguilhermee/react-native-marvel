@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>D9792C23-E602-43CD-9FA7-4C839A245CAF</key>
+		<key>C22CF64A-89AE-47E4-8C18-DE974A18BCF3</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>D9792C23-E602-43CD-9FA7-4C839A245CAF.xcactivitylog</string>
+			<string>C22CF64A-89AE-47E4-8C18-DE974A18BCF3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>reactNativeMarvel project</string>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Building workspace reactNativeMarvel with scheme reactNativeMarvel and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>601502393.45907903</real>
+			<real>601566515.69733906</real>
 			<key>timeStoppedRecording</key>
-			<real>601502401.73130095</real>
+			<real>601566533.11191702</real>
 			<key>title</key>
 			<string>Building workspace reactNativeMarvel with scheme reactNativeMarvel and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>D9792C23-E602-43CD-9FA7-4C839A245CAF</string>
+			<string>C22CF64A-89AE-47E4-8C18-DE974A18BCF3</string>
 		</dict>
 	</dict>
 </dict>

@@ -33,6 +33,6 @@ export default Search;
 Search.navigationOptions = ({ navigation }) => {
   const { params } = navigation.state;
   return {
-    header: null
+    headerShown: false
   };
 };

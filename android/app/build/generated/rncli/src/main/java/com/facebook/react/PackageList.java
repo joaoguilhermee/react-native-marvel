@@ -11,8 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.reactnativemarvel.BuildConfig;
-import com.reactnativemarvel.R;
+import com.reactnative.marvel.BuildConfig;
+import com.reactnative.marvel.R;
 
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;

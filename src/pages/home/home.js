@@ -7,7 +7,7 @@
  */
 
 import React, { useState, useEffect } from "react";
-import { Text, StatusBar } from "react-native";
+import { Text, StatusBar, Linking } from "react-native";
 import { Container, Wrapper } from "./styles";
 import api from "../../services/api";
 import Header from "../../components/Header";
@@ -15,7 +15,7 @@ import Tabs from "../../components/Tabs";
 import Modal from "../../components/Modal";
 import CharactersList from "../../components/CharactersList";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   const [tab, setTab] = useState("popular");
   const [characters, setCharacters] = useState([]);
   const [character, setCharacter] = useState(null);
@@ -46,6 +46,29 @@ const Home = () => {
   useEffect(() => {
     getData();
   }, [page]);
+
+  useEffect(async () => {
+    try {
+      const url = await Linking.getInitialURL();
+      if (url) navigate(url);
+    } catch (error) {}
+    return;
+  }, []);
+
+  async function navigate(url) {
+    const route = url.replace(/.*?:\/\//g, "");
+    const id = route.match(/\/([^\/]+)\/?$/)[1];
+
+    const response = await api.get(`characters/${id}?limit=1`);
+    const { status, data } = response;
+
+    if (status === 200 && data) {
+      const { results } = data.data;
+      if (results) {
+        onPress(results[0]);
+      }
+    }
+  }
   function onPress(item) {
     if (item) {
       setModal(true);
@@ -54,14 +77,14 @@ const Home = () => {
   }
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
       <Container>
         <Wrapper>
-          <Header />
+          <Header navigation={navigation} />
           <Tabs
             tabs={[
-              { name: "Popular", id: "popular" },
               { name: "A-Z", id: "az" },
+              { name: "Z-A", id: "za" },
               { name: "Last viewed", id: "last-viewed" }
             ]}
             active={tab}
@@ -83,3 +106,10 @@ const Home = () => {
 };
 
 export default Home;
+
+Home.navigationOptions = ({ navigation }) => {
+  const { params } = navigation.state;
+  return {
+    header: null
+  };
+};

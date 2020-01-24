@@ -1,11 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
 MERGED from [:@react-native-community_masked-view] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-svg] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/d4d7d71f5bcf8ab2d261ebac08563caf/AndroidManifest.xml:2:1-13:12
@@ -55,13 +57,13 @@ INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/an
 		INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -70,9 +72,9 @@ ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/andro
 	android:name
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-24:19
+ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-26:19
+MERGED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:6:5-26:19
 MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/joaoguilhermeestevesbarbosa/.gradle/caches/transforms-2/files-2.1/d4d7d71f5bcf8ab2d261ebac08563caf/AndroidManifest.xml:11:5-20
@@ -110,7 +112,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/joao
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:7:7-38
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.reactnativemarvel.MainActivity
-ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:13:7-24:18
 	android:label
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
@@ -119,8 +121,8 @@ ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/andro
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:18:9-21:25
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+data:host:reactnativemarvel+data:scheme:reactnativemarvel
+ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:18:9-23:25
 action#android.intent.action.MAIN
 ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
@@ -129,16 +131,26 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
 		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:20:23-70
+data
+ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:21:13-22:48
+	android:host
+		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:22:13-45
+	android:scheme
+		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:21:19-53
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:25:7-84
 	android:name
-		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml:25:17-81
 uses-sdk
 INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/android/app/src/main/AndroidManifest.xml
 MERGED from [:@react-native-community_masked-view] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_masked-view] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-share] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41

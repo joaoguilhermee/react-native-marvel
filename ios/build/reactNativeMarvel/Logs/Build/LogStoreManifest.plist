@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>8CDBA7FE-AC77-4969-A08D-F2524191C62E</key>
+		<key>D9792C23-E602-43CD-9FA7-4C839A245CAF</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,41 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8CDBA7FE-AC77-4969-A08D-F2524191C62E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>reactNativeMarvel project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>reactNativeMarvel</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace reactNativeMarvel with scheme reactNativeMarvel and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>601311201.69439304</real>
-			<key>timeStoppedRecording</key>
-			<real>601311204.86899602</real>
-			<key>title</key>
-			<string>Building workspace reactNativeMarvel with scheme reactNativeMarvel and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>8CDBA7FE-AC77-4969-A08D-F2524191C62E</string>
-		</dict>
-		<key>96C77E74-FD4F-4DC2-830C-B3371F1EA847</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>96C77E74-FD4F-4DC2-830C-B3371F1EA847.xcactivitylog</string>
+			<string>D9792C23-E602-43CD-9FA7-4C839A245CAF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +32,13 @@
 			<key>signature</key>
 			<string>Building workspace reactNativeMarvel with scheme reactNativeMarvel and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>601323043.61484897</real>
+			<real>601502393.45907903</real>
 			<key>timeStoppedRecording</key>
-			<real>601323067.02016103</real>
+			<real>601502401.73130095</real>
 			<key>title</key>
 			<string>Building workspace reactNativeMarvel with scheme reactNativeMarvel and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>96C77E74-FD4F-4DC2-830C-B3371F1EA847</string>
+			<string>D9792C23-E602-43CD-9FA7-4C839A245CAF</string>
 		</dict>
 	</dict>
 </dict>

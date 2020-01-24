@@ -161,7 +161,6 @@
 				52EE8BBE9B5E75A2352372E0 /* Pods-reactNativeMarvelTests.debug.xcconfig */,
 				42337D4772851690AEDD32FE /* Pods-reactNativeMarvelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

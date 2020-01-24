@@ -11,4 +11,6 @@ dependencies: \
   /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
   /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
   /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTBundleURLProvider.h \
-  /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h
+  /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h \
+  /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTLinkingManager.h \
+  /Users/joaoguilhermeestevesbarbosa/Projects/react-native-marvel/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h

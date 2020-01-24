@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 import { metrics } from "../../styles";
 
 export const Container = styled.View`
-  background: #ffffff;
+  background: #fcfcfc;
   border-radius: 24px;
   flex-direction: row;
   overflow: hidden;

@@ -13,11 +13,11 @@ import { Container, SearchButton } from "./styles";
 import { logo } from "../../assets/images/logo.svg";
 import { search } from "../../assets/images/ico-search.svg";
 
-const Header = () => {
+const Header = ({ navigation }) => {
   return (
     <Container>
       <SvgXml style={{ marginLeft: -10 }} xml={logo} />
-      <SearchButton onPress={() => {}}>
+      <SearchButton onPress={() => navigation.navigate("Search")}>
         <SvgXml xml={search} />
       </SearchButton>
     </Container>

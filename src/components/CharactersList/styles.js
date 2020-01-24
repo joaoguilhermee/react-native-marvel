@@ -1,8 +1,8 @@
-import styled from "styled-components/native";
-import { metrics, colors } from "../../styles";
+import styled from 'styled-components/native';
+import { metrics, colors } from '../../styles';
 
 export const Container = styled.View`
-  padding-bottom: ${metrics.padding}px;
+  /* padding-bottom: ${metrics.padding}px; */
   flex: 1;
   width: 100%;
   justify-content: center;
@@ -14,7 +14,7 @@ export const List = styled.FlatList`
 `;
 export const Loader = styled.ActivityIndicator.attrs({
   color: colors.red,
-  size: "large"
+  size: 'large',
 })`
   margin: ${metrics.padding}px 0;
 `;

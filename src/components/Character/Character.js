@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { SvgXml } from "react-native-svg";
+import React, { useState, useEffect } from 'react';
+import { SvgXml } from 'react-native-svg';
 import {
   Container,
   Photo,
@@ -8,29 +8,36 @@ import {
   RealName,
   Description,
   MoreInfo,
-  MoreInfoText
-} from "./styles";
+  MoreInfoText,
+} from './styles';
 
-import { link } from "../../assets/images/ico-link.svg";
+import { link } from '../../assets/images/ico-link.svg';
 const Character = ({ item, onPress }) => {
   return (
-    <Container>
+    <Container
+      hide={
+        item.thumbnail.path &&
+        item.thumbnail.path.substring(
+          item.thumbnail.path.lastIndexOf('/') + 1
+        ) === 'image_not_available'
+      }
+    >
       {item.thumbnail && item.thumbnail.path && (
         <Photo
           source={{
             uri: `${item.thumbnail.path}.${item.thumbnail.extension}`,
 
             width: 160,
-            height: 212
+            height: 212,
           }}
         />
       )}
       <Info>
         <Name>
           {item.name}
-          <RealName></RealName>
+          <RealName />
         </Name>
-        {item.description !== "" && (
+        {item.description !== '' && (
           <Description numberOfLines={4}>{item.description}</Description>
         )}
         <MoreInfo onPress={item => onPress(item)}>

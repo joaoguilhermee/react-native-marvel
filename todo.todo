@@ -1,5 +1,4 @@
-[ ] icone slash
-[ ] icone
+
 [ ] busca
   - aparecer ultimos termos, poder excluir. 
   - Aparecer ultimos clicados na busca
@@ -14,10 +13,11 @@
 [ ] Swipe fechar modal
 [ ] Backbutton fechar modal
 [ ] lazy image
+https://blog.rocketseat.com.br/criando-efeito-de-lazy-load-em-imagens-no-react-native/
 [ ] rolagem por letra
     tipo contatos antigos ou contatos do iPhone
 [ ] organizar metrics
-
+[ ] escrever testes.
 public d92d3fd55c235b7a6b585b79a29dbee5
 private c348ea7b25331401da0240cbe3b27c88f3a14949
 

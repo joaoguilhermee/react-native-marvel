@@ -1,5 +1,5 @@
-import styled from "styled-components/native";
-import { metrics } from "../../styles";
+import styled, { css } from 'styled-components/native';
+import { metrics } from '../../styles';
 
 export const Container = styled.View`
   background: #fcfcfc;
@@ -8,6 +8,11 @@ export const Container = styled.View`
   overflow: hidden;
   margin-bottom: 24px;
   min-height: 212px;
+  ${props =>
+    props.hide &&
+    css`
+      display: none;
+    `}
 `;
 export const MoreInfo = styled.TouchableOpacity`
   flex-direction: row;

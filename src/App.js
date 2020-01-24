@@ -6,26 +6,26 @@
  * @flow
  */
 
-import React from "react";
-import Home from "./pages/Home";
-import Search from "./pages/Search";
-import { createAppContainer } from "react-navigation";
-import { createStackNavigator } from "react-navigation-stack";
+import React from 'react';
+import Home from './pages/Home';
+import Search from './pages/Search';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 const Router = createAppContainer(
   createStackNavigator({
     Home: {
       screen: Home,
-      path: "character/:id"
+      path: 'character/:id',
     },
-    Search: Search
+    Search: Search,
   })
 );
 
 const prefix =
-  Platform.OS === "ios"
-    ? "reactnativemarvel://"
-    : "reactnativemarvel://reactnativemarvel/";
+  Platform.OS === 'ios'
+    ? 'reactnativemarvel://'
+    : 'reactnativemarvel://reactnativemarvel/';
 
 //reactnativemarvel://character/1011334
 const App = () => {
